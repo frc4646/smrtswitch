@@ -23,12 +23,12 @@ Servo inputTwo;
 void setup() {
   Serial.begin(9600);
   //Servo attachment
-  leftX.attach(2);
-  rightX.attach(3);
-  leftY.attach(4);
-  rightY.attach(5);
-  inputOne.attach(6);
-  inputTwo.attach(7);
+  leftX.attach(3);
+  rightX.attach(5);
+  leftY.attach(6);
+  rightY.attach(9);
+  inputOne.attach(10);
+  inputTwo.attach(11);
 }
 
 void loop() {
